@@ -1,0 +1,55 @@
+@model IEnumerable<CS_CustomerInfo_Module.Models.Customer>
+
+    @{
+    ViewData["Title"] = "Index";
+    }
+
+    <br />
+    <h3>Customer Information</h3>
+    <hr />
+    <p>
+        <a asp-action="Create" class="btn btn-sm btn-primary">Create New</a>
+    </p>
+
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Cust_FirstName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cust_LastName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cust_ContactNumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cust_Email)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+    {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Cust_FirstName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Cust_LastName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Cust_ContactNumber)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Cust_Email)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.CustID" class="btn btn-sm btn-success">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.CustID" class="btn btn-sm btn-primary">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.CustID" class="btn btn-sm btn-danger">Delete</a>
+                </td>
+            </tr>
+    }
+    </table>
+
+

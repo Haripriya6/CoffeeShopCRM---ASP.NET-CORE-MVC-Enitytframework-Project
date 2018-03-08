@@ -1,0 +1,9 @@
+F:\Big Data\GITHUB\ASPNETCORE project\SRC\CoffeeShopCRM\CoffeeShopCRM\bin\Debug\netcoreapp1.1\CoffeeShopCRM.deps.json
+F:\Big Data\GITHUB\ASPNETCORE project\SRC\CoffeeShopCRM\CoffeeShopCRM\bin\Debug\netcoreapp1.1\CoffeeShopCRM.runtimeconfig.json
+F:\Big Data\GITHUB\ASPNETCORE project\SRC\CoffeeShopCRM\CoffeeShopCRM\bin\Debug\netcoreapp1.1\CoffeeShopCRM.runtimeconfig.dev.json
+F:\Big Data\GITHUB\ASPNETCORE project\SRC\CoffeeShopCRM\CoffeeShopCRM\bin\Debug\netcoreapp1.1\CoffeeShopCRM.dll
+F:\Big Data\GITHUB\ASPNETCORE project\SRC\CoffeeShopCRM\CoffeeShopCRM\bin\Debug\netcoreapp1.1\CoffeeShopCRM.pdb
+F:\Big Data\GITHUB\ASPNETCORE project\SRC\CoffeeShopCRM\CoffeeShopCRM\obj\Debug\netcoreapp1.1\CoffeeShopCRM.csprojResolveAssemblyReference.cache
+F:\Big Data\GITHUB\ASPNETCORE project\SRC\CoffeeShopCRM\CoffeeShopCRM\obj\Debug\netcoreapp1.1\CoffeeShopCRM.AssemblyInfo.cs
+F:\Big Data\GITHUB\ASPNETCORE project\SRC\CoffeeShopCRM\CoffeeShopCRM\obj\Debug\netcoreapp1.1\CoffeeShopCRM.dll
+F:\Big Data\GITHUB\ASPNETCORE project\SRC\CoffeeShopCRM\CoffeeShopCRM\obj\Debug\netcoreapp1.1\CoffeeShopCRM.pdb

@@ -1,0 +1,154 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        /* Remove the navbar's default rounded borders and increase the bottom margin */
+        .navbar {
+            margin-bottom: 50px;
+            border-radius: 0;
+        }
+
+        /* Remove the jumbotron's default bottom margin */
+       
+
+        .bg {
+            background: url(../../wwwroot/images/title1.png) no-repeat center center;
+            position: fixed;
+            width: 100%;
+            height: 200px; /*same height as jumbotron */
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+
+        div.jumbotron {
+            background: url("../../title.jpg") no-repeat center;
+            margin-bottom: 0px;
+            height: 200px;
+            /*color: white;
+            text-shadow: black 0.3em 0.3em 0.3em;
+            background: transparent;*/
+        }
+
+        /* Add a gray background color and some padding to the footer */
+        footer {
+            background-color: #f2f2f2;
+            padding: 25px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="jumbotron" >
+        <div class="container text-right" >
+            <h1 style="color:burlywood;font-family:Freestyle Script;font-weight:bold;">The Coffee shop</h1>
+            <p style="color:burlywood;font-family:Freestyle Script;font-weight:bold;">-a best ever relaxing place</p>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @*<a class="navbar-brand" href="#">Logo</a>*@
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    @*<li><a href="#">Beverages</a></li>*@
+                    <li><a href="#">Deals</a></li>
+                    @*<li><a href="#">Branches</a></li>*@
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> Admin </a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Order </a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container" style="height: 150px;">
+        <div class="row">
+            <div class="col-sm-2">
+                <div class="panel panel-primary" style="width: 132px;">
+                    <div class="panel-heading" style="width: 130px;" >CUSTOMER INFORMATION</div>
+                    <div class="panel-body center-block">
+                        <a asp-area="" asp-controller="Customer" asp-action="Index">
+                            <img src="~/images/Customer.png" class="img-responsive" style="width: 100px; height: 100px;" alt="Image">
+                        </a>
+                    </div>
+                    @*<div class="panel-footer">Search Customer</div>*@
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <div class="panel panel-success" style="width: 132px;">
+                    <div class="panel-heading" style="width: 130px;">BRANCH INFORMATION</div>
+                    <div class="panel-body"><img src="~/images/Branch.png" class="img-responsive" style="width: 100px; height: 100px;" alt="Image"></div>
+                    @*<div class="panel-footer">Buy 50 mobiles and get a gift card</div>*@
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <div class="panel panel-success" style="width: 132px;">
+                    <div class="panel-heading" style="width: 130px;">BEVERAGE INFORMATION</div>
+                    <div class="panel-body"><img src="~/images/Beverage.png" class="img-responsive" style="width: 100px; height: 100px;" alt="Image"></div>
+                    @*<div class="panel-footer">Buy 50 mobiles and get a gift card</div>*@
+                </div>
+            </div>
+        @*</div>
+    </div><br>
+
+    <div class="container">
+        <div class="row">*@
+            <div class="col-sm-2">
+                <div class="panel panel-success" style="width: 132px;">
+                    <div class="panel-heading" style="width: 130px;">EMPLOYEE INFORMATION</div>
+                    <div class="panel-body"><img src="~/images/Customer.png" style="width: 100px; height: 100px;" class="img-responsive" alt="Image"></div>
+                    @*<div class="panel-footer">Buy 50 mobiles and get a gift card</div>*@
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <div class="panel panel-success" style="width: 132px;">
+                    <div class="panel-heading" style="width: 130px;">ORDER INFORMATION </div>
+                    <div class="panel-body"><img src="~/images/Order.png" class="img-responsive" style="width: 100px; height: 100px;" alt="Image"></div>
+                    @*<div class="panel-footer">Buy 50 mobiles and get a gift card</div>*@
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <div class="panel panel-success" style="width: 132px;">
+                    <div class="panel-heading" style="width: 130px;">SALES REPORTS </div>
+                    <div class="panel-body"><img src="~/images/Report.png" class="img-responsive" style="width: 100px; height: 100px;" alt="Image"></div>
+                    @*<div class="panel-footer">Buy 50 mobiles and get a gift card</div>*@
+                </div>
+            </div>
+        </div>
+    </div><br><br>
+
+    @*<footer class="container-fluid text-center">
+        <p>Online Store Copyright</p>
+        <form class="form-inline">
+            Get deals:
+            <input type="email" class="form-control" size="50" placeholder="Email Address">
+            <button type="button" class="btn btn-danger">Sign Up</button>
+        </form>
+    </footer>*@
+
+</body>
+</html>
+
+

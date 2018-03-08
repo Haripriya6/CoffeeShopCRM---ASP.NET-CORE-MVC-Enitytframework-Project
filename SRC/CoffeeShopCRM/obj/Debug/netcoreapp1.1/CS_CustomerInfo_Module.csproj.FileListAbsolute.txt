@@ -1,0 +1,9 @@
+c:\users\haripriya\documents\visual studio 2017\Projects\CS_CustomerInfo_Module\CS_CustomerInfo_Module\bin\Debug\netcoreapp1.1\CS_CustomerInfo_Module.deps.json
+c:\users\haripriya\documents\visual studio 2017\Projects\CS_CustomerInfo_Module\CS_CustomerInfo_Module\bin\Debug\netcoreapp1.1\CS_CustomerInfo_Module.runtimeconfig.json
+c:\users\haripriya\documents\visual studio 2017\Projects\CS_CustomerInfo_Module\CS_CustomerInfo_Module\bin\Debug\netcoreapp1.1\CS_CustomerInfo_Module.runtimeconfig.dev.json
+c:\users\haripriya\documents\visual studio 2017\Projects\CS_CustomerInfo_Module\CS_CustomerInfo_Module\bin\Debug\netcoreapp1.1\CS_CustomerInfo_Module.dll
+c:\users\haripriya\documents\visual studio 2017\Projects\CS_CustomerInfo_Module\CS_CustomerInfo_Module\bin\Debug\netcoreapp1.1\CS_CustomerInfo_Module.pdb
+c:\users\haripriya\documents\visual studio 2017\Projects\CS_CustomerInfo_Module\CS_CustomerInfo_Module\obj\Debug\netcoreapp1.1\CS_CustomerInfo_Module.csprojResolveAssemblyReference.cache
+c:\users\haripriya\documents\visual studio 2017\Projects\CS_CustomerInfo_Module\CS_CustomerInfo_Module\obj\Debug\netcoreapp1.1\CS_CustomerInfo_Module.AssemblyInfo.cs
+c:\users\haripriya\documents\visual studio 2017\Projects\CS_CustomerInfo_Module\CS_CustomerInfo_Module\obj\Debug\netcoreapp1.1\CS_CustomerInfo_Module.dll
+c:\users\haripriya\documents\visual studio 2017\Projects\CS_CustomerInfo_Module\CS_CustomerInfo_Module\obj\Debug\netcoreapp1.1\CS_CustomerInfo_Module.pdb
